@@ -1,4 +1,3 @@
-# genetic-algo-jacobo
 
 # ALGORITMO GENETICO 
 
