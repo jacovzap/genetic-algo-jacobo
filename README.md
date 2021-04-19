@@ -46,7 +46,7 @@ Viendo los resultados podemos observar que entre mas grande sea la poblacion men
 ![Screenshot](https://lh3.googleusercontent.com/y4xj4s5aTYK3YOEkqL8spL_ildS0Rc2tWwmsmADmqaJ22PQsWXCoO6gQh3hiTwwRsFEG9SiV5nRqoHjYjuXtLW6JxHI8RhMIt2q2lNUcrYsHY7AE6zgy5YhVeExSGv3Fzk5TL7giSnRB69mRpP7WKK4-4kMhWpCGzPIIc5BcYM0zUcBR0h_FIHSl_wwcldolvj-gHDmWkfDFC2YVvIDEbFr_U1b1iauZ6JLdzBGOO-oLukmWjYAOJFQ2qljR9LIo-sTuTFur4t5YEdFSFYh0XJlDTA80RunW6fDid7wb1T4oJ7IFidklrO5Gyp1Ax8gvcRxFkqtyob9IsuQxYDjF35sXwVTbaJsKu_h7bT743DmJNEUpqt3dNDRDZTnOGpNzgySEIoODRXMILv4acALWblVOFdN-Asp1liUNkYKrIwgbCePPjPNcRLcbtmUd3i6QRkzCC0xkqIIaoDGZlCPfbJ4y_vyf9-xQOAWnni7MerAGr_f3PsOedFiAZ1P2R8yOThFgKUmjmsfmNuojDWhBRFAuGFAs1sSvLXA10yLw6XoQeRuWebn3rIMWhvI_H1PdKSJf-8F2LKybthuXFMSszHiNGXEoARn3HOxMUOOYKaNTXCCrEuB_BrR3Di6nzdudG2J_z_c_6q2QuLw5PyV7OQyQf7yW9q9A5J_VAHbfAfmdvZvZNv-Zkt8t2FGXBL_WkxWBn5nHMDsPSmwOCcAVnMch=w1161-h892-no?authuser=0)
 Format: ![Alt Text](url)
 
-Todos los cromosomas convergieron en supercromosomas en la generacion 17
+Todos los cromosomas convergieron en supercromosomas en la generacion 14
 
 ## POROTOS:
 Se programo una funcion que pudiese encontrar el cromosoma mas poderoso donde los genes de este no estuviesen comprendidos por 0s y 1s sino, en un rango de numeros del 1 al 9. Para solucionar este problema se programo un fitness_function mas discriminativo, bajo la formula:
