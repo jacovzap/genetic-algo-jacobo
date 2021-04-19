@@ -41,6 +41,12 @@ Para Pc = 0,7  Pm = 0.001
 
 Viendo los resultados podemos observar que entre mas grande sea la poblacion menos generaciones se necesitaran para resolver el problema, esto gracias a que por la aletoriedad y tamanio de la poblacion hay mas posibilidades de encontrar mejores cromosomas desde un inicio.
 
+### PARA UNA POBLACION DE 100, GRAFICAR LA MEJOR, PEOR Y EL PROMEDIO DEL FITNESS FUNCTION
+
+![Screenshot](https://lh3.googleusercontent.com/LVtamGqjbCwQkhOWhlFFWIk5lNvzKPhP_9hrpiS1WuUAtfJFJiYSTnnbFIGUzevvqB5iPrgsHAynYf7B9gyhJzz7mq8NkhbiVeZDzoSskzgiJdTrUR4mqYRuOobPpSve_dqdWsQzIVdzPTuNY54f7xA4nIOw2I2Ice2TKkjIXspAtc1oYEJAHzZUfhPInwbylVW55r-YbN1k30PsT0jfTpdRrYfNLYtP1WwzHm5oIxJLdzaQTLJ5IrZK2wZuZRgX7NRgE0r2ncfewjah2VXRzHhRDnFe1OgU52T5HHascC_1ZTmhUKelv3boKk4vgXM36-TARE_C9DQ_biQadUPeFFjI4ZgNtjJW441GGDsAnVQ83tEmA6wI6-GOPq4biQB1l70CTE9qLtSvKolEQsJT3hIhvKaPKtXbEfA6sisIdIhzPa5A4FlFAgGj5lwIrvIhCbalHfysqNviI0fpWnk6lFhwtvodLOMbqUDPeRrJ0hFqjN-jdSFW0bNfNOP6PfMtGGT19aMFI4B36bJnmlOkRNP8pxKs_kPGaXuyEBnP9flf-2BDZpw9jwlzbrBMCglm5QkkgbJMMF5T9Lxv3RuEknU_-JxH2WC1JtzwSicbwOCpaR-NR54e1-OL85eYNuw2TB5gHH-CIzLmH2HhjIT4BEDcj-WkfK3b7e3jBD9LMZWGtxCmSl5Dpg9BIdspB46CkOiURbNAFhLVnGqwD_bu4Tdm=w2522-h1418-no?authuser=0)
+Format: ![Alt Text](url)
+
+
 
 ## POROTOS:
 Se programo una funcion que pudiese encontrar el cromosoma mas poderoso donde los genes de este no estuviesen comprendidos por 0s y 1s sino, en un rango de numeros del 1 al 9. Para solucionar este problema se programo un fitness_function mas discriminativo, bajo la formula:
