@@ -35,7 +35,7 @@ def check_supergen(genes_list, genes_fitness_value_list, bits_longitud, i_iterat
     for index in range(len(genes_list)):
         if index not in super_genes_position_list:
             if genes_fitness_value_list[index] == bits_longitud:
-                print(len(super_genes_position_list)+1,'º SUPER GEN FOUND:', '\nITERATION: ',i_iteration, '\nGEN: ', genes_list[index], '\nPOSITION: ', index,'\n\n')
+                print(len(super_genes_position_list)+1,'º SUPER CHROMOSOME FOUND:', '\nITERATION: ',i_iteration, '\nGEN: ', genes_list[index], '\nPOSITION: ', index,'\n\n')
                 super_genes_position_list.append(index)
             
             #else:
@@ -92,6 +92,11 @@ def genetic_algorithm(n_iterations, bits_longitud, population_size, p_cross, p_m
         genes_fitness_value_list =  fitness_function(genes_list)
         super_genes_position_list = check_supergen(genes_list, genes_fitness_value_list, bits_longitud, i_iteration, super_genes_position_list)
         
+        
+        #if super_genes_position_list:
+            #return i_iteration
+        
+        
         selected = [tournament_selection(genes_list, genes_fitness_value_list) for _ in range(population_size)]
         children = []
 
@@ -128,6 +133,10 @@ def genetic_algorithm_decimal_gene(n_iterations, bits_longitud, population_size,
         genes_fitness_value_list =  fitness_function_decimal(genes_list)
         super_genes_position_list = check_supergen(genes_list, genes_fitness_value_list, bits_longitud, i_iteration, super_genes_position_list)
         
+        #if super_genes_position_list:
+            #return i_iteration
+        
+        
         selected = [tournament_selection(genes_list, genes_fitness_value_list) for _ in range(population_size)]
         children = []
 
@@ -157,13 +166,23 @@ def genetic_algorithm_decimal_gene(n_iterations, bits_longitud, population_size,
 
 
 def main():
-    n_iterations = 300
+    n_iterations = 20
     bits_longitud = 20
     population_size = 100
     p_cross = 0.7
     p_mut = 0.001
-    #genetic_algorithm(n_iterations, bits_longitud, population_size, p_cross, p_mut)
-    genetic_algorithm_decimal_gene(n_iterations, bits_longitud, population_size, p_cross, p_mut)
+
+    #first_position = []
+
+    #for i in range (0, 20):
+        #first_position.append(genetic_algorithm(n_iterations, bits_longitud, population_size, p_cross, p_mut))
+        #first_position.append(genetic_algorithm_decimal_gene(n_iterations, bits_longitud, population_size, p_cross, p_mut))
+    
+    #print('El promedio de generaciones para encontrar un supercromosoma es: ', statistics.mean(first_position))
+    #print(first_position)
+
+    genetic_algorithm(n_iterations, bits_longitud, population_size, p_cross, p_mut)
+    #genetic_algorithm_decimal_gene(n_iterations, bits_longitud, population_size, p_cross, p_mut)
 
 
 
