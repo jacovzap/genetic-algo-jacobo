@@ -9,13 +9,16 @@ Se implemento un algoritmo genetico simple, con un metodo de seleccion por torne
 
 ### EJECUTANDO EL ALGORITMO 20 VECES
 
-Se ejecuto el programa 20 veces para observar en que generacion se encontro por primera vez al cromosoma mas fuerte, el resultado que nos arrojo fue: 6.4
+Se ejecuto el programa 20 veces para observar en que generacion se encontro por primera vez al cromosoma mas fuerte, el resultado que nos arrojo fue: 
+> 6.4
 
 ### EJECUTANDO EL ALGORITMO SIN CROSSOVER 
-Ejecutando el algoritmo con un crossover de 0 y una mutacion de 0.17, la media de generaciones para encontrar un cromosoma incremento a: 39.9
+Ejecutando el algoritmo con un crossover de 0 y una mutacion de 0.17, la media de generaciones para encontrar un cromosoma incremento a: 
+> 39.9
 
 ### EJECUTANDO EL ALGORITMO SIN MUTACION
-Ejecutando el algoritmo con un crossover de 0.7 y una mutacion de 0, la media de generaciones para encontrar un cromosoma fue: 7.6
+Ejecutando el algoritmo con un crossover de 0.7 y una mutacion de 0, la media de generaciones para encontrar un cromosoma fue: 
+> 7.6
 Sin embargo se pudo observar que sin la mutacion, rara vez algunos cromosomas no llegaban a alcanzar el cromosoma mas poderoso, ni otorgandoles ilimitadas generaciones
 
 ### PROBANDO CON DIFERENTES CONFIGURACIONES PARA CROSSOVER Y MUTACION 
@@ -44,7 +47,7 @@ Se programo una funcion que pudiese encontrar el cromosoma mas poderoso donde lo
 
 > fitness_value = Sumatoria(10 - gen.value) / 9
 
-esto se hizo con el motivo de que el valor del fitness de una supercromosoma iguale a 20, al igual que una supercromosoma binaria, de este modo, se podrian reutilizar algunas funciones.
+Esto se hizo con el motivo de que el valor del fitness de una supercromosoma iguale a 20, al igual que una supercromosoma binaria, de este modo, se podrian reutilizar algunas funciones.
 
 Ejecutando el codigo 20 veces obtuvimos los siguientes resultados:
 Para Poblacion: 100, Pc: 0.7, Pm = 0.001
