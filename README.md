@@ -43,10 +43,10 @@ Viendo los resultados podemos observar que entre mas grande sea la poblacion men
 
 ### PARA UNA POBLACION DE 100, GRAFICAR LA MEJOR, PEOR Y EL PROMEDIO DEL FITNESS FUNCTION
 
-![Screenshot](https://lh3.googleusercontent.com/LVtamGqjbCwQkhOWhlFFWIk5lNvzKPhP_9hrpiS1WuUAtfJFJiYSTnnbFIGUzevvqB5iPrgsHAynYf7B9gyhJzz7mq8NkhbiVeZDzoSskzgiJdTrUR4mqYRuOobPpSve_dqdWsQzIVdzPTuNY54f7xA4nIOw2I2Ice2TKkjIXspAtc1oYEJAHzZUfhPInwbylVW55r-YbN1k30PsT0jfTpdRrYfNLYtP1WwzHm5oIxJLdzaQTLJ5IrZK2wZuZRgX7NRgE0r2ncfewjah2VXRzHhRDnFe1OgU52T5HHascC_1ZTmhUKelv3boKk4vgXM36-TARE_C9DQ_biQadUPeFFjI4ZgNtjJW441GGDsAnVQ83tEmA6wI6-GOPq4biQB1l70CTE9qLtSvKolEQsJT3hIhvKaPKtXbEfA6sisIdIhzPa5A4FlFAgGj5lwIrvIhCbalHfysqNviI0fpWnk6lFhwtvodLOMbqUDPeRrJ0hFqjN-jdSFW0bNfNOP6PfMtGGT19aMFI4B36bJnmlOkRNP8pxKs_kPGaXuyEBnP9flf-2BDZpw9jwlzbrBMCglm5QkkgbJMMF5T9Lxv3RuEknU_-JxH2WC1JtzwSicbwOCpaR-NR54e1-OL85eYNuw2TB5gHH-CIzLmH2HhjIT4BEDcj-WkfK3b7e3jBD9LMZWGtxCmSl5Dpg9BIdspB46CkOiURbNAFhLVnGqwD_bu4Tdm=w2522-h1418-no?authuser=0)
+![Screenshot](https://lh3.googleusercontent.com/y4xj4s5aTYK3YOEkqL8spL_ildS0Rc2tWwmsmADmqaJ22PQsWXCoO6gQh3hiTwwRsFEG9SiV5nRqoHjYjuXtLW6JxHI8RhMIt2q2lNUcrYsHY7AE6zgy5YhVeExSGv3Fzk5TL7giSnRB69mRpP7WKK4-4kMhWpCGzPIIc5BcYM0zUcBR0h_FIHSl_wwcldolvj-gHDmWkfDFC2YVvIDEbFr_U1b1iauZ6JLdzBGOO-oLukmWjYAOJFQ2qljR9LIo-sTuTFur4t5YEdFSFYh0XJlDTA80RunW6fDid7wb1T4oJ7IFidklrO5Gyp1Ax8gvcRxFkqtyob9IsuQxYDjF35sXwVTbaJsKu_h7bT743DmJNEUpqt3dNDRDZTnOGpNzgySEIoODRXMILv4acALWblVOFdN-Asp1liUNkYKrIwgbCePPjPNcRLcbtmUd3i6QRkzCC0xkqIIaoDGZlCPfbJ4y_vyf9-xQOAWnni7MerAGr_f3PsOedFiAZ1P2R8yOThFgKUmjmsfmNuojDWhBRFAuGFAs1sSvLXA10yLw6XoQeRuWebn3rIMWhvI_H1PdKSJf-8F2LKybthuXFMSszHiNGXEoARn3HOxMUOOYKaNTXCCrEuB_BrR3Di6nzdudG2J_z_c_6q2QuLw5PyV7OQyQf7yW9q9A5J_VAHbfAfmdvZvZNv-Zkt8t2FGXBL_WkxWBn5nHMDsPSmwOCcAVnMch=w1161-h892-no?authuser=0)
 Format: ![Alt Text](url)
 
-
+Todos los cromosomas convergieron en supercromosomas en la generacion 17
 
 ## POROTOS:
 Se programo una funcion que pudiese encontrar el cromosoma mas poderoso donde los genes de este no estuviesen comprendidos por 0s y 1s sino, en un rango de numeros del 1 al 9. Para solucionar este problema se programo un fitness_function mas discriminativo, bajo la formula:
@@ -61,6 +61,13 @@ Para Poblacion: 100, Pc: 0.7, Pm = 0.001
 > [204, 178, 357, 243, 297, 179, 133, 144, 235, 284, 463, 498, 148, 325, 274, 279, 132, 250, 269, 316]
 
 dando un promedio de 260.4
+
+### PARA UNA POBLACION DE 100, GRAFICAR LA MEJOR, PEOR Y EL PROMEDIO DEL FITNESS FUNCTION
+
+![Screenshot](https://lh3.googleusercontent.com/hJoxVN3nUSXBWfOtkkAeUJIn36cp6VhK6i6dNE3zW6LQUSnsjXyMDuVHMC6kN22A-b40LE6fXtyXYNR0SvDd7-A4VEAE5ju6FNukrunM0EEAw7qC-jxbu0G_ONZxBWoWVxYh6TkzmCk_zPiKg0xatw-TEwz0o7mztI5OglhYii-NFlTMt-g7XQR5jwypqw3fgHQbaGwsSmvLDxHjIaxOnQcgttJKTeEFIBNC872SdDljiSFVZDWXDVDBUHzNtcw_rUHSX7Iypp_Y7w618u6IoqTZgJFii9RU5FVUA2a8mzPeUxP0HqRZDBWkLvUSr92vv9qz3CV5fdPlqSPFIfFybl3ETqAHxaIsO_Lpsg3ghHL9jvaqWwyjR4WKLtspIbD8n2Zrop9AnB0-CQ_PCkVAf391MAtSynFDG8uKZe-7nvotBEVTyhPmRwjpnBmaPZ8oirrOHfX5lIzbN_koRstVLRylD6bi2dOGPdSYw2sRsV3_G6A8fyASr9zY_n2xvtuVfPB22bqvVRRj0uUKKrW_KfiiJQUKRX_Nt6SaeLvYM7tHxxi65DicxQIHulBrDvRk-Ds5lfbFK6Kp-RvONpDzbGYSrCL7BI1_OPzCP21UlIH6-xbrkpvrnr8B6FkZ1-VNYMGh5GXQxxKCdAh71z4_4Agdd_2W_TxyMfChWeZ4wQ-DJvjpXXNm8jS30P893Cb7x-gXgJHcLqxwcdFUWVd8iZmN=w1193-h890-no?authuser=0)
+Format: ![Alt Text](url)
+
+Todos los cromosomas convergieron en supercromosomas en la generacion 276
 
 ## REQUIREMENTS 
 > Se recomienda tener instalada la version 3 de python
